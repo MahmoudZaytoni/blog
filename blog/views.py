@@ -4,9 +4,14 @@ from django.core.mail import send_mail
 from .models import Post, Comment
 from .forms import EmailPostForm, CommentForm
 from django.views.decorators.http import require_POST
+from taggit.models import Tag
 
-def post_list(request):
+def post_list(request, tag_slug=None):
     posts = Post.published.all()
+    tag = None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        posts = posts.filter(tags__in=[tag])
     # Pagination with 3 posts per page
     paginator = Paginator(posts, 1)
     page_number = request.GET.get('page', 1)
@@ -20,7 +25,8 @@ def post_list(request):
         posts = paginator.page(paginator.num_pages)
     return render(request,
                   'blog/post/list.html',
-                  {'posts':posts})
+                  {'posts': posts,
+                   'tag': tag})
 
 def post_detail(request, year, month, day, post):
     post = get_object_or_404(Post, 
