@@ -1,0 +1,890 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-10-06T12:25:57.723Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Exploring the Power of Django: Building a Robust Web Application",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-10-07T19:32:55.310Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Building a RESTful API with Django and Django REST framework",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-10-19T23:01:13.159Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Mark Down Post",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-10-19T23:01:40.634Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Mark Down Post",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-10-19T23:12:03.048Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-10-21T16:38:12.552Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Who was Django Reinhardt?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-10-21T16:46:42.914Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Who was Django Reinhardt?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-10-21T16:51:26.171Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "admin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-10-21T16:52:08.450Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-10-21T16:52:26.850Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-10-21T16:52:48.043Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-10-21T16:59:41.833Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Comment by test name on Building a RESTful API with Django and Django REST framework",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Email\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add post",
+        "content_type": 7,
+        "codename": "add_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change post",
+        "content_type": 7,
+        "codename": "change_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete post",
+        "content_type": 7,
+        "codename": "delete_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view post",
+        "content_type": 7,
+        "codename": "view_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add comment",
+        "content_type": 8,
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change comment",
+        "content_type": 8,
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete comment",
+        "content_type": 8,
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view comment",
+        "content_type": 8,
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add tag",
+        "content_type": 9,
+        "codename": "add_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change tag",
+        "content_type": 9,
+        "codename": "change_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete tag",
+        "content_type": 9,
+        "codename": "delete_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view tag",
+        "content_type": 9,
+        "codename": "view_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add tagged item",
+        "content_type": 10,
+        "codename": "add_taggeditem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change tagged item",
+        "content_type": 10,
+        "codename": "change_taggeditem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete tagged item",
+        "content_type": 10,
+        "codename": "delete_taggeditem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view tagged item",
+        "content_type": 10,
+        "codename": "view_taggeditem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add site",
+        "content_type": 11,
+        "codename": "add_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change site",
+        "content_type": 11,
+        "codename": "change_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete site",
+        "content_type": 11,
+        "codename": "delete_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view site",
+        "content_type": 11,
+        "codename": "view_site"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$fuUUVpnIDFsBFgZCY4M5WQ$5I1RmCggju5wPlfuE2F0z3Fm1GuV9s1kkhBIbaaJYH4=",
+        "last_login": "2023-10-21T15:57:06.448Z",
+        "is_superuser": true,
+        "username": "mahmoud",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-10-06T12:08:54.937Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$0Qleav2ptp1h7YsJ6G2IwO$CHJGdyAU7peaXjcfq8YxJE1zm0SujLHIITun5JyYL5Y=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-10-21T16:51:25Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$HI6PbF2ATKinjtuYaCC8k8$vZcsk9a+2pailZpEZ3BNOI0jqeOcg2GueadIbDVlTus=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "root",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-10-21T16:54:25.128Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "blog",
+        "model": "post"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "blog",
+        "model": "comment"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "taggit",
+        "model": "tag"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "taggit",
+        "model": "taggeditem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "sites",
+        "model": "site"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "1squboaqoma29d09d9mio61kks6ov5ru",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGllZJ_5R0nMGa9de4wCypTipEHeHSCmgfTPzXiLgtpawdV7CnMRZgDj9boTxwXUH6Y711mRsdV1mkrsiD9rltSV-Xg7376BgL98aRzcBkR1Hy0ZH4kzWgBqQtXKZ2OuJLERtlEdAtsmjcd4Z9ENOBFq8P-j3OA0:1qtsrm:d3qvR0IjpsBXzQVQd7sgVec7w94BNvFVI0A-SMpYXKo",
+        "expire_date": "2023-11-03T17:00:54.387Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8t73m14xwsmc5srt1sxuyohwpmdvxhy1",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGllZJ_5R0nMGa9de4wCypTipEHeHSCmgfTPzXiLgtpawdV7CnMRZgDj9boTxwXUH6Y711mRsdV1mkrsiD9rltSV-Xg7376BgL98aRzcBkR1Hy0ZH4kzWgBqQtXKZ2OuJLERtlEdAtsmjcd4Z9ENOBFq8P-j3OA0:1quFCq:4Q2_1AkGnpyJ790FmsIAjmSWBWYiuE4LqQ2DFxn3dTQ",
+        "expire_date": "2023-11-04T16:52:08.471Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "qeeeykceonozmy91wuzks91ouiirmvia",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGllZJ_5R0nMGa9de4wCypTipEHeHSCmgfTPzXiLgtpawdV7CnMRZgDj9boTxwXUH6Y711mRsdV1mkrsiD9rltSV-Xg7376BgL98aRzcBkR1Hy0ZH4kzWgBqQtXKZ2OuJLERtlEdAtsmjcd4Z9ENOBFq8P-j3OA0:1qojfA:-ythqiKSQNaqkVZZOlEuqt85diKAUecxm9rZyPqWBo0",
+        "expire_date": "2023-10-20T12:10:36.957Z"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "title": "Exploring the Power of Django: Building a Robust Web Application",
+        "slug": "exploring-the-power-of-django-building-a-robust-web-application",
+        "author": 1,
+        "body": "Hey there, fellow developers! 👋 Today, let's dive into the world of Django, one of the most powerful and versatile Python web frameworks out there. Whether you're a seasoned developer or just starting your journey in web development, Django has something to offer everyone. In this post, we'll take a closer look at Django and its incredible features that make web development a breeze.\r\n\r\n## Why Django?\r\n\r\nFirst things first, why should you choose Django? Well, Django is known for its simplicity, scalability, and speed in building web applications. It follows the \"batteries-included\" philosophy, which means it provides a wide range of built-in tools and libraries for common web development tasks. With Django, you can focus on building your application's core functionality rather than reinventing the wheel.\r\n\r\n## Key Features of Django:\r\n\r\n1. **ORM (Object-Relational Mapping):** Django's ORM allows you to interact with your database using Python classes instead of SQL queries. This makes database operations more intuitive and less error-prone.\r\n\r\n2. **Authentication and Authorization:** Implementing user authentication and access control is a breeze with Django's built-in authentication system. You can easily manage user accounts, permissions, and security.\r\n\r\n3. **Admin Interface:** Django provides an automatic admin interface for managing your application's data. You can customize and extend it to suit your specific needs.\r\n\r\n4. **URL Routing:** Define URL patterns using Django's URL routing, making it easy to map URLs to views and controllers.\r\n\r\n5. **Templates:** Django's template engine allows you to create dynamic and reusable HTML templates. It follows the DRY (Don't Repeat Yourself) principle, promoting clean and maintainable code.\r\n\r\n6. **Security:** Django has built-in security features to protect against common web vulnerabilities, such as SQL injection, cross-site scripting (XSS), and CSRF attacks.\r\n\r\n7. **Testing:** Writing unit tests and running them is straightforward with Django. It encourages test-driven development (TDD) practices, ensuring the reliability of your code.\r\n\r\n## Getting Started with Django:\r\n\r\nTo get started with Django, you'll need Python installed on your machine. Once that's done, you can install Django using pip:\r\n\r\n```bash\r\npip install django",
+        "publish": "2023-10-06T12:25:24Z",
+        "created": "2023-10-06T12:25:57.719Z",
+        "updated": "2023-10-06T12:25:57.719Z",
+        "status": "PB"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "Building a RESTful API with Django and Django REST framework",
+        "slug": "building-a-restful-api-with-django-and-django-rest-framework",
+        "author": 1,
+        "body": "Hello, fellow developers! 👋 In this post, we're going to explore the exciting world of building a RESTful API using Django and Django REST framework. If you're looking to create a robust API for your web or mobile application, you're in the right place.\r\n\r\n## What is Django REST framework?\r\n\r\nDjango REST framework (DRF) is a powerful and flexible toolkit for building Web APIs in Django applications. It provides a set of tools and conventions that make it easy to build RESTful APIs while leveraging the features of Django, such as its ORM, authentication system, and more.\r\n\r\n## Key Concepts in DRF:\r\n\r\n1. **Serializers:** DRF uses serializers to convert complex data types, such as Django querysets and model instances, into native Python data types. This makes it easy to render content into JSON, XML, or other content types.\r\n\r\n2. **Views and Viewsets:** DRF offers class-based views and viewsets for defining the logic of your API. These views handle actions like creating, reading, updating, and deleting objects.\r\n\r\n3. **Authentication and Permissions:** DRF provides a wide range of authentication classes and permission classes to secure your API. You can implement token-based authentication, JWT authentication, and more.\r\n\r\n4. **Pagination:** Easily paginate large result sets to improve API performance and usability.\r\n\r\n5. **Filters and Search:** DRF includes filtering and search capabilities to allow clients to narrow down results based on specific criteria.\r\n\r\n6. **Routers:** Use routers to automatically wire up the URLs for your API views. This reduces the complexity of URL configuration.\r\n\r\n## Getting Started:\r\n\r\nTo get started with Django REST framework, you'll first need to create a Django project (if you haven't already) and then install DRF using pip:\r\n\r\n```bash\r\npip install djangorestframework",
+        "publish": "2023-10-07T19:32:35Z",
+        "created": "2023-10-07T19:32:55.307Z",
+        "updated": "2023-10-07T19:32:55.307Z",
+        "status": "PB"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "title": "Mark Down Post",
+        "slug": "mark-down-post",
+        "author": 1,
+        "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n*This is emphasized* and **this is more emphasized**.\r\nHere is a list:\r\n* One\r\n* Two\r\n* Three\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+        "publish": "2023-10-19T23:00:21Z",
+        "created": "2023-10-19T23:01:13.135Z",
+        "updated": "2023-10-19T23:01:40.610Z",
+        "status": "PB"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+        "title": "Who was Django Reinhardt?",
+        "slug": "who-was-django-reinhardt",
+        "author": 1,
+        "body": "this is body",
+        "publish": "2023-10-21T16:37:46Z",
+        "created": "2023-10-21T16:38:12.525Z",
+        "updated": "2023-10-21T16:46:42.901Z",
+        "status": "PB"
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+        "post": 2,
+        "name": "test name",
+        "email": "test@gmail.com",
+        "body": "this is my comments and my advice\r\naldsfj \r\nadlfjasd lfjasdlfj asdf\r\n sdafljdf daslfjaselrueo asdlfj asdlf soadjf lsdafjl sdjf sdklafj dasflj ds",
+        "created": "2023-10-08T19:40:05.952Z",
+        "updated": "2023-10-21T16:59:41.830Z",
+        "active": true
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 1,
+    "fields": {
+        "name": "news",
+        "slug": "news"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 2,
+    "fields": {
+        "name": "javascript",
+        "slug": "javascript"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 3,
+    "fields": {
+        "name": "django",
+        "slug": "django"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 4,
+    "fields": {
+        "name": "Mark",
+        "slug": "mark"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 5,
+    "fields": {
+        "name": "Down",
+        "slug": "down"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 6,
+    "fields": {
+        "name": "markdown",
+        "slug": "markdown"
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 1,
+    "fields": {
+        "tag": 1,
+        "content_type": 7,
+        "object_id": 1
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 2,
+    "fields": {
+        "tag": 2,
+        "content_type": 7,
+        "object_id": 1
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 3,
+    "fields": {
+        "tag": 3,
+        "content_type": 7,
+        "object_id": 1
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 6,
+    "fields": {
+        "tag": 6,
+        "content_type": 7,
+        "object_id": 3
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 7,
+    "fields": {
+        "tag": 3,
+        "content_type": 7,
+        "object_id": 4
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+}
+]
