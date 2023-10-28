@@ -12,7 +12,7 @@ services:
   web:
     build: .
     command: ["./wait-for-it.sh", "db:5432", "--",
-            "./entrypoint.sh"]
+            "python", "/code/manage.py", "runserver", "0.0.0.0:8000"]
     volumes:
       - .:/code
     ports:
